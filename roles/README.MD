@@ -1,0 +1,1 @@
+ansible-playbook -i inventory.ini -e ansible_user=centos -e ansible_password=DevOps321  -e component=mongodb main.yaml
